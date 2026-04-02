@@ -1,19 +1,19 @@
 # Katalyst
 
-Katalyst is a separate long-term systems platform for distributed organizations.
+Katalyst is the long-term internal systems platform for distributed tutoring and operations teams.
 
-Initial real deployment target:
+It stays separate from Pulse:
+
+- Pulse = public-facing convention companion
+- Katalyst = internal systems platform
+
+## Current focus
 
 - tutoring operations in Japan
 - roughly 100 students and tutors
 - coordination, scheduling, continuity, and execution support
 
-Katalyst should stay distinct from Pulse.
-
-- Pulse = public-facing convention access layer
-- Katalyst = internal systems platform
-
-## Current scope
+## What is in this repo
 
 This repo is intentionally a scaffold, not a full implementation.
 
@@ -21,9 +21,18 @@ Included here:
 
 - architecture framing
 - module map
-- tutoring deployment requirements
 - low-fidelity dashboard direction
+- tutoring deployment requirements
 - backlog and component inventory
+
+## Start here
+
+- [Architecture](./docs/architecture.md)
+- [Module map](./docs/module-map.md)
+- [Dashboard wireframe](./docs/dashboard-wireframe.md)
+- [Tutoring deployment requirements](./docs/tutoring-deployment.md)
+- [Component inventory](./docs/component-inventory.md)
+- [Backlog](./docs/backlog.md)
 
 ## Product principles
 
